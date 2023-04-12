@@ -1,0 +1,41 @@
+@mixin xs {
+  @media (max-width: 576px) {
+    @content;
+  }
+}
+@mixin sm {
+  @media (min-width: 576px) and (max-width: 768px) {
+    @content;
+  }
+}
+//lt pour 'lower-then' tous ce qui ce trouve en dessous de cette taille d'ecran
+@mixin sm-lt {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+@mixin md {
+  @media (min-width: 5769px) and (max-width: 992px) {
+    @content;
+  }
+}
+@mixin md-lt {
+  @media (max-width: 992px) {
+    @content;
+  }
+}
+@mixin lg {
+  @media (min-width: 993px) and (max-width: 1200px) {
+    @content;
+  }
+}
+@mixin lg-lt {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
+@mixin xl {
+  @media (min-width: 1201px) {
+    @content;
+  }
+}

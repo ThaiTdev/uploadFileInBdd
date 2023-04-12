@@ -1,0 +1,39 @@
+:root {
+  --primary-2: #080040;
+  --primary-1: #fbaf02;
+  --secondary: #ffd67b;
+
+  --neutral-1: #000000;
+  --neutral-2: #353535;
+  --neutral-2b: #353535be;
+  --neutral-3: #6a6a6a;
+  --neutral-4: #b8bbc6;
+  --neutral-5: #c7c7cc;
+  --neutral-6: #b8bbc6;
+  --neutral-7: #eaecef;
+  --neutral-8: #ffffff;
+
+  --semantic-1: #2cc2dc;
+  --semantic-2: #ff3b30;
+  --semantic-3: #5ac8fa;
+  --semantic-4: #5856d6;
+  --semantic-5: #ff9500;
+  --semantic-6: #4cd964;
+  --semantic-7: #ffcc00;
+  --semantic-8: #007aff;
+  --semantic-9: #385c8e;
+  --semantic-10: #385c8e5b;
+
+  --font-family: "Source Sans Pro", sans-serif;
+  --box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  --box-shadow-nav: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  --text-color: #444;
+}
+
+$small: 300px;
+$medium: 600px;
